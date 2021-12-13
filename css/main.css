@@ -287,7 +287,7 @@ header .flex {
 .hero-btn {
     border: 3px solid #5a1354;
     border-radius: 10px;
-    padding: 1rem 2rem;
+    padding: 0.75rem 1.5rem;
     background: linear-gradient(to right, #5a1354 50%, transparent 50%);
     background-size: 200% 100%;
     background-position: right bottom;
@@ -922,7 +922,6 @@ iframe {
     }
 
     .book form {
-        width: 75%;
         margin: auto;
     }
 
@@ -1072,7 +1071,8 @@ iframe {
     }
 
     .stylist-info {
-        margin: 3rem 4rem;
+        margin: 3rem auto;
+        width: 85%;
     }
 
     .stylist-bio {
@@ -1104,6 +1104,10 @@ iframe {
     .book .grid {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
+    }
+
+    .book .information {
+        margin: 0;
     }
 
     .information iframe {
