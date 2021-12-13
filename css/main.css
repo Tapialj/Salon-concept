@@ -1054,10 +1054,6 @@ iframe {
         grid-template-rows: auto auto;
     }
 
-    .products .product-info {
-        margin: 1rem 2rem;
-    }
-
     .info-box p {
         padding: 0.5rem 1rem;
     }
